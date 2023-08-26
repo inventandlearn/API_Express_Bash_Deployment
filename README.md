@@ -1,3 +1,3 @@
-# Profiles REST API
+# About The Project
 
-Profiles REST API source code.
+This project is a REST API built from the ground up. The development of this project started locally within a virtual machine using Vagrant and VirtualBox. The REST API is built upon Django, Django REST Framework, and Python. After completing the development phase of this project I deployed it to AWS with the use of bash shell scripts within a deploy folder of the project and Github's online repository. Subsequently, an EC2 instance was launched, and from within this instance, the setup bash script, which had been previously pushed to GitHub, was executed via the curl command. Afterwards, I proceeded to update the application settings on my local environment and subsequently pushed these changes to GitHub. This allowed for the application to be hosted on the EC2 instance through the execution of the update bash script. This sequence of steps seamlessly enabled the accomplishment of deploying and operating the application on the AWS platform.
